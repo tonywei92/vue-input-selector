@@ -56,7 +56,7 @@ Message to display on "select" button is selected when disabled is `True`.
 Add class `is-invalid` to input, default behavior of Bootstrap is the input box will have red border.
 
 ### errorMessage [String, default: "This column is required"]
-Message to show below the inpput when inputError value is `True`.
+Message to show below the input when inputError value is `True`.
 
 ### busy [Boolean, default: `false`]
 Show loading spinner
@@ -69,68 +69,68 @@ Only single event available, `@select`, which will return current selected objec
 ```
 <!-- app.vue  -->
 <template>
-	<div>
-		<input-selector
-	        :items="customItems"
-	        :disabled="inputSelectorConfig.disabled"
-	        :disabledMessage="inputSelectorConfig.disabledMessage"
-	        :inputError="inputSelectorConfig.inputError"
-	        :errorMessage="inputSelectorConfig.errorMessage"
-	        :title="inputSelectorConfig.title"
-	        :busy="inputSelectorConfig.busy"
-	        @select="onStudentSelect">
-		></input-selector>
-		
-		<p>
-			name: {{ selectedItem.name }}, value: {{ selectedItem.value }}
-		</p>
+  <div>
+    <input-selector
+      :items="customItems"
+      :disabled="inputSelectorConfig.disabled"
+      :disabledMessage="inputSelectorConfig.disabledMessage"
+      :inputError="inputSelectorConfig.inputError"
+      :errorMessage="inputSelectorConfig.errorMessage"
+      :title="inputSelectorConfig.title"
+      :busy="inputSelectorConfig.busy"
+      @select="onStudentSelect">
+    ></input-selector>
+    
+    <p>
+      name: {{ selectedItem.name }}, value: {{ selectedItem.value }}
+    </p>
 
-	</div>
+  </div>
 </template>
 
 <script>
-	export default {
-		data(){
-			return {
-				selectedItem: {},
-				inputSelectorConfig :{
-					title : "Students",
-					disabled : false,
-					disabledMessage : "Disabled, try again later",
-					inputError : false,
-					errorMessage : "Well, something goes wrong",
-					busy :false
-				},
-				customItems:
-				[{
-				  "value": 1,
-				  "name": "Delcina"
-				 },
-				  {
-				  "value": 2,
-				  "name": "Philippa"
-				 },
-				 {
-				  "value": 3,
-				  "name": "Pamela"
-				 },
-				 {
-				  "value": 4,
-				  "name": "Darla"
-				 },
-				 {
-				  "value": 5,
-				  "name": "Raymund"
-				 }]
-				}
-		},
-		methods:{
-			onStudentSelect(item){
-				this.selectedItem = item;
-				this.inputSelectorConfig.inputError = false;
-			}
-		}	
-	}
+  export default {
+    data(){
+      return {
+        selectedItem: {},
+        inputSelectorConfig :{
+          title : "Students",
+          disabled : false,
+          disabledMessage : "Disabled, try again later",
+          inputError : false,
+          errorMessage : "Well, something goes wrong",
+          busy :false
+        },
+        customItems:
+        [{
+         "value": 1,
+         "name": "Delcina"
+         },
+         {
+         "value": 2,
+         "name": "Philippa"
+         },
+         {
+         "value": 3,
+         "name": "Pamela"
+         },
+         {
+         "value": 4,
+         "name": "Darla"
+         },
+         {
+         "value": 5,
+         "name": "Raymund"
+         }]
+        }
+    },
+    methods:{
+      onStudentSelect(item){
+        this.selectedItem = item;
+        this.inputSelectorConfig.inputError = false;
+      }
+    }   
+  }
 </script>
 ```
 
@@ -149,4 +149,4 @@ Please read [CONTRIBUTING.md](https://github.com/tonywei92/vue-input-selector/bl
 
 ## License
 
-This project is licensed under the MIT(https://opensource.org/licenses/MIT) License
+This project is licensed under the [MIT](https://opensource.org/licenses/MIT) License
