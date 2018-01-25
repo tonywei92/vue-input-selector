@@ -4,7 +4,7 @@ Vue input component with list selector powered by Bootstrap modal.
 
 ## Demo
 
-![Vue Input Selector Demo](demo.gif)
+![Vue Input Selector Demo](https://raw.githubusercontent.com/tonywei92/vue-input-selector/master/demo.gif)
 
 ## Getting Started
 
@@ -138,7 +138,7 @@ Only single event available, `@select`, which will return current selected objec
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/tonywei92/vue-input-selector/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
 
