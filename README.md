@@ -2,6 +2,10 @@
 
 Vue input component with list selector powered by Bootstrap modal.
 
+## Demo
+
+![Vue Input Selector Demo](demo.gif)
+
 ## Getting Started
 
 First you need Bootstrap Framework and jQuery, these instructions will get you a copy of the project up and running on your local machine.
