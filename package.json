@@ -4,10 +4,11 @@
   "description": "Vue input component with list selector powered by Bootstrap modal",
   "main": "dist/vue-input-selector.js",
   "dependencies": {
-    "poi": "^9.6.13"
+    
   },
   "devDependencies": {
-    "babel-preset-poi": "^1.1.2"
+    "babel-preset-poi": "^1.1.2",
+    "poi": "^9.6.13"
   },
   "scripts": {
     "build": "poi build src/components/InputSelector.vue --format cjs --filename.js VueInputSelector.js --no-sourceMap --no-html"
