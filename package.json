@@ -1,0 +1,18 @@
+{
+  "name": "vue-input-selector",
+  "version": "1.0.0",
+  "description": "Vue input component with list selector powered by Bootstrap modal",
+  "main": "dist/vue-input-selector.js",
+  "dependencies": {
+    "poi": "^9.6.13"
+  },
+  "devDependencies": {
+    "babel-preset-poi": "^1.1.2"
+  },
+  "scripts": {
+    "build": "poi build src/components/InputSelector.vue --format cjs --filename.js VueInputSelector.js --no-sourceMap --no-html"
+  },
+  "keywords": ["vue input", "vue component", "input list"],
+  "author": "Tony Song <tonywei92@gmail.com>",
+  "license": "ISC"
+}
