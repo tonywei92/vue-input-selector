@@ -1,11 +1,9 @@
 {
   "name": "vue-input-selector",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Vue input component with list selector powered by Bootstrap modal",
   "main": "dist/vue-input-selector.js",
-  "dependencies": {
-    
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-preset-poi": "^1.1.2",
     "poi": "^9.6.13"
