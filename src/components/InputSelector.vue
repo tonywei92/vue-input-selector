@@ -79,7 +79,7 @@
                 },
                 'errorMessage': {
                     type: String,
-                    default: 'Kolom ini dibutuhkan'
+                    default: 'This column is required'
                 },
                 'busy': {
                     type: Boolean,

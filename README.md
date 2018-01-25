@@ -40,23 +40,26 @@ To display the interface, use `input-selector` element at your Vue component
 
 All of these configurations/props are optional.
 
-### title
+### title [String, default: empty string]
 Set title of the selector, this will prefix with "Select <your title>"
 
-### items [Object]
+### items [Object, default: empty Array]
 List items with array of object, with key `value` and `name`.
 
-### disabled [Boolean]
+### disabled [Boolean, default: `False`]
 Set "select" button disabled.
 
-### DisabledMessage [String]
+### DisabledMessage [String, default: empty string]
 Message to display on "select" button is selected when disabled is `True`.
 
-### inputError [Boolean]
+### inputError [Boolean, default: `false`]
 Add class `is-invalid` to input, default behavior of Bootstrap is the input box will have red border.
 
-### errorMessage [String]
+### errorMessage [String, default: "This column is required"]
 Message to show below the inpput when inputError value is `True`.
+
+### busy [Boolean, default: `false`]
+Show loading spinner
 
 ## Event
 Only single event available, `@select`, which will return current selected object item.
