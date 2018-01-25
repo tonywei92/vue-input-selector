@@ -18,7 +18,7 @@ Install the component
 npm install --save-dev vue-input-selector
 ```
 
-### Installing
+### How to use
 
 Import Vue and register this component at your main javascript file:
 
