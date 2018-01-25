@@ -29,7 +29,7 @@
                         <div class="ui-search">
                             <div class="form-group label-floating">
                                 <label :for="id">Search</label>
-                                <input :id="id + '_input-dialog'" type="text" placeholder="Cari..." v-model="keyword" class="form-control input-text" autocomplete="off"
+                                <input :id="id + '_input-dialog'" type="text" placeholder="Search..." v-model="keyword" class="form-control input-text" autocomplete="off"
                                        @keydown.up="moveUp"
                                        @keydown.down="moveDown"
                                        @keydown.home="moveHome"
