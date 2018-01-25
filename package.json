@@ -1,6 +1,6 @@
 {
   "name": "vue-input-selector",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Vue input component with list selector powered by Bootstrap modal",
   "main": "dist/VueInputSelector.js",
   "dependencies": {},
