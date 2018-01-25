@@ -1,6 +1,6 @@
 {
   "name": "vue-input-selector",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Vue input component with list selector powered by Bootstrap modal",
   "main": "dist/vue-input-selector.js",
   "dependencies": {
@@ -17,9 +17,9 @@
     "vue component",
     "input list"
   ],
-  "repository" :{
-    "type" : "git",
-    "url" : "https://github.com/tonywei92/vue-input-selector.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tonywei92/vue-input-selector.git"
   },
   "author": "Tony Song <tonywei92@gmail.com>",
   "license": "ISC"
