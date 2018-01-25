@@ -12,7 +12,7 @@ First you need Bootstrap Framework and jQuery, these instructions will get you a
 
 ### Prerequisites
 
-You need to install the this component
+Install the component
 
 ```
 npm install --save-dev vue-input-selector
