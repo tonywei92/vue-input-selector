@@ -2,7 +2,6 @@
 <template>
 	<div>
 		<input-selector
-			ref='customer'
 	        :items="customItems"
 	        :disabled="inputSelectorConfig.disabled"
 	        :disabledMessage="inputSelectorConfig.disabledMessage"
